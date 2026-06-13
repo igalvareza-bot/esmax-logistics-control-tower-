@@ -1,89 +1,66 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-import plotly.express as px
-
-st.set_page_config(page_title="ESMAX Control Tower", layout="wide")
-
 # =========================
-# HEADER
+# ⚖️ MARCO LEGAL Y NORMATIVO
 # =========================
-st.title("ESMAX Logistics Control Tower 4.0")
-st.caption("Sistema de supervisión logística basado en KPIs, analítica de datos y Logística 4.0")
+st.markdown("## ⚖️ Marco Legal y Normativo Vigente")
 
-st.divider()
+st.markdown("""
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-# =========================
-# KPIs EJECUTIVOS
-# =========================
-col1, col2, col3, col4 = st.columns(4)
+🏢 **Contexto Regulatorio: ESMAX (Sector Energía y Combustibles)**
 
-col1.metric("Nivel de Servicio", "96.2%")
-col2.metric("OTIF", "94.5%")
-col3.metric("Rotación Inventario", "12.4")
-col4.metric("Stock Crítico", "3.1%")
+La operación logística de ESMAX se encuentra regulada por un marco normativo
+estricto debido a la naturaleza crítica y peligrosa de los productos manejados
+(combustibles, derivados del petróleo y logística de distribución energética).
 
-st.divider()
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-# =========================
-# DATOS SIMULADOS
-# =========================
-np.random.seed(42)
+📜 **Normativa Chilena Aplicable**
 
-df = pd.DataFrame({
-    "Centro de Distribución": ["Norte", "Centro", "Sur", "RM", "Industrial"],
-    "Stock": np.random.randint(60, 200, 5),
-    "Demanda": np.random.randint(50, 180, 5)
-})
+➡️ **Ley N° 18.410**
+Superintendencia de Electricidad y Combustibles (SEC)  
+→ Regula, fiscaliza y sanciona el transporte, almacenamiento y distribución de combustibles.
 
-# =========================
-# GRÁFICO PRINCIPAL
-# =========================
-fig = px.bar(
-    df,
-    x="Centro de Distribución",
-    y=["Stock", "Demanda"],
-    barmode="group",
-    title="Comparación de Stock vs Demanda por Centro de Distribución"
-)
+➡️ **Decreto Supremo N° 160 (Ministerio de Economía)**
+→ Reglamento de seguridad para instalaciones y operaciones de combustibles líquidos.
 
-st.plotly_chart(fig, use_container_width=True)
+➡️ **Ley N° 16.744**
+→ Seguro social contra accidentes del trabajo y enfermedades profesionales.
 
-st.divider()
+➡️ **Código del Trabajo (Chile)**
+→ Regula condiciones laborales, turnos operativos y seguridad del personal logístico.
 
-# =========================
-# FODA ESTRATÉGICO
-# =========================
-st.subheader("Análisis Estratégico FODA")
+➡️ **Ley N° 19.300**
+→ Bases Generales del Medio Ambiente  
+→ Aplica a control de emisiones, manejo de residuos y prevención de impacto ambiental.
 
-st.write("✔ Fortalezas: red logística nacional, cobertura operativa")
-st.write("✔ Debilidades: baja visibilidad en tiempo real, procesos manuales")
-st.write("✔ Oportunidades: digitalización logística, analítica predictiva")
-st.write("✔ Amenazas: variabilidad de demanda, costos de transporte")
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-st.divider()
+🌎 **Normativas Internacionales de Referencia**
 
-# =========================
-# RIESGO OPERACIONAL
-# =========================
-st.subheader("Mapa de Riesgo Logístico")
+➡️ ISO 9001: Gestión de Calidad  
+➡️ ISO 14001: Gestión Ambiental  
+➡️ ISO 45001: Seguridad y Salud en el Trabajo  
+➡️ ISO 28000: Seguridad en la cadena de suministro  
 
-riesgo = np.random.choice(["Bajo", "Medio", "Alto"])
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-if riesgo == "Bajo":
-    st.success("Riesgo BAJO: operación estable")
-elif riesgo == "Medio":
-    st.warning("Riesgo MEDIO: requiere monitoreo")
-else:
-    st.error("Riesgo ALTO: posible quiebre de stock")
+🧠 **Implicancia en la Torre de Control Logística**
 
-st.divider()
+El cumplimiento normativo impacta directamente en:
 
-# =========================
-# MENSAJE EJECUTIVO FINAL
-# =========================
-st.info("""
-ESMAX Logistics Control Tower 4.0 permite mejorar la toma de decisiones logísticas
-mediante la integración de KPIs, visualización de datos y análisis de riesgo operativo,
-alineado con principios de Supply Chain Management y Logística 4.0.
+→ Planificación de rutas de distribución de combustibles  
+→ Control de inventarios de materiales peligrosos  
+→ Gestión de riesgos operacionales críticos  
+→ Trazabilidad de la cadena de suministro  
+→ Seguridad del personal y activos logísticos  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 **Conclusión Regulatoria**
+
+El sistema ESMAX Logistics Control Tower 4.0 integra indicadores
+y monitoreo operacional que permiten apoyar el cumplimiento normativo,
+reduciendo riesgos legales, ambientales y operacionales.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """)
