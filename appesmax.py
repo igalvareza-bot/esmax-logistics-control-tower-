@@ -8,59 +8,50 @@ st.markdown("""
 
 🏢 **Contexto Regulatorio: ESMAX (Sector Energía y Combustibles)**
 
-La operación logística de ESMAX se encuentra regulada por un marco normativo
-estricto debido a la naturaleza crítica y peligrosa de los productos manejados
-(combustibles, derivados del petróleo y logística de distribución energética).
+ESMAX opera dentro de un sector altamente regulado debido al manejo de combustibles,
+productos peligrosos y una cadena de suministro crítica para la economía nacional.
+
+El cumplimiento normativo es un factor clave en la continuidad operacional,
+la seguridad industrial y la sostenibilidad ambiental.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📜 **Normativa Chilena Aplicable**
 
-➡️ **Ley N° 18.410**
-Superintendencia de Electricidad y Combustibles (SEC)  
-→ Regula, fiscaliza y sanciona el transporte, almacenamiento y distribución de combustibles.
-
-➡️ **Decreto Supremo N° 160 (Ministerio de Economía)**
-→ Reglamento de seguridad para instalaciones y operaciones de combustibles líquidos.
-
-➡️ **Ley N° 16.744**
-→ Seguro social contra accidentes del trabajo y enfermedades profesionales.
-
-➡️ **Código del Trabajo (Chile)**
-→ Regula condiciones laborales, turnos operativos y seguridad del personal logístico.
-
-➡️ **Ley N° 19.300**
-→ Bases Generales del Medio Ambiente  
-→ Aplica a control de emisiones, manejo de residuos y prevención de impacto ambiental.
+- Ley N° 18.410 → Crea la Superintendencia de Electricidad y Combustibles (SEC), entidad fiscalizadora del sector.
+- Decreto Supremo N° 160 → Reglamento de seguridad para almacenamiento, transporte y distribución de combustibles líquidos.
+- Ley N° 16.744 → Establece normas sobre accidentes del trabajo y enfermedades profesionales.
+- Código del Trabajo (Chile) → Regula condiciones laborales, turnos operativos y seguridad del personal logístico.
+- Ley N° 19.300 → Bases Generales del Medio Ambiente, aplicable a emisiones, residuos y control ambiental.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🌎 **Normativas Internacionales de Referencia**
+🌎 **Normas Internacionales de Referencia**
 
-➡️ ISO 9001: Gestión de Calidad  
-➡️ ISO 14001: Gestión Ambiental  
-➡️ ISO 45001: Seguridad y Salud en el Trabajo  
-➡️ ISO 28000: Seguridad en la cadena de suministro  
+- ISO 9001 → Gestión de calidad en procesos logísticos.
+- ISO 14001 → Gestión ambiental y sostenibilidad operativa.
+- ISO 45001 → Seguridad y salud en el trabajo.
+- ISO 28000 → Seguridad en la cadena de suministro.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧠 **Implicancia en la Torre de Control Logística**
+🧠 **Impacto en la Gestión Logística**
 
-El cumplimiento normativo impacta directamente en:
+El cumplimiento de este marco normativo impacta directamente en:
 
-→ Planificación de rutas de distribución de combustibles  
-→ Control de inventarios de materiales peligrosos  
-→ Gestión de riesgos operacionales críticos  
-→ Trazabilidad de la cadena de suministro  
-→ Seguridad del personal y activos logísticos  
+→ Planificación y control de distribución de combustibles  
+→ Gestión de inventarios críticos y materiales peligrosos  
+→ Trazabilidad completa de la cadena de suministro  
+→ Reducción de riesgos operacionales y legales  
+→ Protección del personal y activos logísticos  
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📊 **Conclusión Regulatoria**
 
-El sistema ESMAX Logistics Control Tower 4.0 integra indicadores
-y monitoreo operacional que permiten apoyar el cumplimiento normativo,
-reduciendo riesgos legales, ambientales y operacionales.
+La integración del cumplimiento normativo dentro de la ESMAX Logistics Control Tower 4.0
+permite fortalecer la toma de decisiones, reducir riesgos operacionales y asegurar
+la continuidad del negocio bajo estándares legales, ambientales y de seguridad industrial.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """)
