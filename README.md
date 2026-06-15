@@ -1,37 +1,37 @@
-# ESMAX Logistics Control Tower 4.0
+# ESMAX LOGISTICS CONTROL TOWER 4.0
 
 ## Descripción del Proyecto
 
-ESMAX Logistics Control Tower 4.0 es una plataforma de supervisión logística y análisis estratégico desarrollada en Python y Streamlit, orientada a mejorar la toma de decisiones ejecutivas en la cadena de suministro de ESMAX.
+ESMAX Logistics Control Tower 4.0 es una plataforma de supervisión logística desarrollada en Python y Streamlit, orientada a mejorar la toma de decisiones estratégicas en la cadena de suministro mediante el uso de indicadores clave de desempeño (KPIs), analítica de datos y visualización ejecutiva.
 
-La solución se basa en principios de Logística 4.0, integrando analítica de datos, visualización de indicadores clave de desempeño (KPIs) y monitoreo operacional en tiempo real para optimizar el abastecimiento, la gestión de inventarios y la eficiencia logística.
+El proyecto se fundamenta en principios de **Logística 4.0** y **Supply Chain Management**, permitiendo mejorar la eficiencia operacional, la visibilidad de procesos y la gestión de riesgos logísticos.
+
+---
+
+## Marco Teórico
+
+Este proyecto se basa en los siguientes autores y enfoques:
+
+- Chopra & Meindl: Gestión integral de la cadena de suministro.
+- Christopher: Logística como ventaja competitiva.
+- Porter: Cadena de valor y eficiencia operacional.
+- Mentzer et al.: Definición formal de Supply Chain Management.
 
 ---
 
 ## Objetivo General
 
-Diseñar e implementar una torre de control logística que permita mejorar la supervisión de la cadena de suministro de ESMAX, facilitando la toma de decisiones estratégicas basadas en datos.
+Diseñar una torre de control logística que permita mejorar la supervisión de la cadena de suministro mediante el uso de KPIs y analítica de datos.
 
 ---
 
 ## Objetivos Específicos
 
-- Identificar brechas en la supervisión logística actual.
-- Diseñar indicadores clave de desempeño (KPIs) para la gestión logística.
-- Desarrollar una plataforma de visualización ejecutiva en Python.
-- Incorporar análisis de datos para apoyar la toma de decisiones.
-- Mejorar la eficiencia operacional y la calidad del servicio.
-
----
-
-## Funcionalidades
-
-- Dashboard ejecutivo de KPIs logísticos.
-- Monitoreo de inventarios y abastecimiento.
-- Visualización de indicadores de desempeño.
-- Análisis de tendencias operacionales.
-- Soporte a decisiones estratégicas.
-- Base para simulación de escenarios logísticos.
+- Identificar brechas en la supervisión logística.
+- Monitorear indicadores clave de desempeño (KPIs).
+- Evaluar riesgos operacionales.
+- Mejorar la toma de decisiones basada en datos.
+- Incrementar la eficiencia de la cadena de suministro.
 
 ---
 
@@ -45,6 +45,16 @@ Diseñar e implementar una torre de control logística que permita mejorar la su
 
 ---
 
+## Funcionalidades
+
+- Dashboard ejecutivo de KPIs logísticos
+- Análisis de stock vs demanda
+- Evaluación de riesgo operacional
+- Análisis estratégico FODA
+- Soporte a toma de decisiones
+
+---
+
 ## Integrantes del Proyecto
 
 - Ignacio Álvarez  
@@ -53,14 +63,12 @@ Diseñar e implementar una torre de control logística que permita mejorar la su
 
 ---
 
-## Contexto Académico
+## Enfoque Estratégico
 
-Proyecto desarrollado para la asignatura Taller Aplicado de Supervisión Logística.
-
-El propósito es aplicar herramientas de análisis, tecnología y gestión logística para proponer soluciones innovadoras, viables y alineadas con los objetivos estratégicos de una organización real.
+El sistema permite transitar desde una gestión logística reactiva hacia una gestión basada en datos, alineada con los principios de la transformación digital y la Logística 4.0.
 
 ---
 
-## Enfoque Estratégico
+## Conclusión
 
-Este proyecto se orienta a fortalecer la supervisión logística mediante la digitalización de indicadores, la mejora de la visibilidad operacional y el soporte a decisiones gerenciales en entornos de alta complejidad logística como el sector energético.
+La implementación de esta torre de control logística contribuye a mejorar la eficiencia operativa, reducir incertidumbre en la cadena de suministro y fortalecer la toma de decisiones estratégicas en entornos complejos como el sector energético.
